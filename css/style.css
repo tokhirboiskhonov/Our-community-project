@@ -58,13 +58,6 @@ img {
 	opacity: 1;
  }*/
 
-/* FOCUS */
-
-*:focus {
-  outline: 2px dashed var(--orange);
-  outline-offset: 3px;
-}
-
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
@@ -195,4 +188,227 @@ img {
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    max-width: 650px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .top-block {
+    padding: 20px 10px;
+  }
+
+  .text {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .container {
+    max-width: 550px;
+  }
+
+  .top-block {
+    padding: 25px 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 450px;
+  }
+
+  .subscription-block {
+    padding: 10px;
+  }
+
+  .subscription-block__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .subscription-block__cost {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3px;
+    margin-bottom: 3px;
+  }
+
+  .subcsription-block__paragraph {
+    margin-bottom: 18px;
+  }
+
+  .subscription-block__sign--btn {
+    width: 200px;
+    padding: 10px;
+  }
+
+  .question-block {
+    padding: 10px;
+  }
+
+  .question-block__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .question-block__text {
+    max-width: 200px;
+    width: 100%;
+    color: lightcyan;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 400px;
+  }
+
+  .top-block {
+    padding: 10px;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .text {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .subscription-block {
+    padding: 8px;
+  }
+
+  .subscription-block__title {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .subscription-block__cost {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3px;
+    margin-bottom: 3px;
+  }
+
+  .subcsription-block__price {
+    font-size: 24px;
+  }
+
+  .subcsription-block__paragraph {
+    margin-bottom: 10px;
+  }
+
+  .subscription-block__sign--btn {
+    width: 180px;
+    padding: 10px;
+  }
+
+  .question-block {
+    padding: 8px;
+  }
+
+  .question-block__title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .question-block__text {
+    max-width: 200px;
+    width: 100%;
+    font-size: 14px;
+    color: lightcyan;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .top-block {
+    padding: 12px;
+  }
+
+  .title {
+    width: fit-content;
+    font-size: 18px;
+  }
+
+  .description {
+    max-width: fit-content;
+  }
+
+  .text {
+    max-width: 300px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .bottom-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscription-block,
+  .question-block {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .subscription-block__cost {
+    margin-bottom: 10px;
+  }
+
+  .subcsription-block__paragraph {
+    margin-bottom: 20px;
+  }
+
+  .subscription-block__sign--btn {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .question-block__title {
+    margin-bottom: 20px;
+  }
+
+  .question-block__text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 280px;
+    width: 100%;
+  }
 }
