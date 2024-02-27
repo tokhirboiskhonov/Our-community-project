@@ -83,6 +83,13 @@ img {
 }
 
 .container {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ecf2ff;
+  border-radius: 5px;
+}
   width: 100%;
   max-width: 1200px;
   padding-left: 50px;
