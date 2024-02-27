@@ -90,12 +90,103 @@ img {
   background-color: #ecf2ff;
   border-radius: 5px;
 }
+
+.top-block {
+  padding: 30px 20px;
+}
+
+.title {
+  color: lightseagreen;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 500px;
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  color: lightgreen;
+  margin-bottom: 5px;
+}
+
+.text {
+  max-width: 600px;
+  width: 100%;
+}
+
+.bottom-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subscription-block {
+  width: 50%;
+  padding: 30px;
+  background-color: darkcyan;
+}
+
+.subscription-block__title {
+  text-transform: capitalize;
+  color: #ecf2ff;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.subscription-block__cost {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.subcsription-block__price {
+  color: #ecf2ff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.subscription-block__rates {
+  font-size: 12px;
+  font-weight: 400;
+  color: lightgrey;
+}
+
+.subcsription-block__paragraph {
+  color: lightgrey;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subscription-block__sign--btn {
+  max-width: 220px;
+  width: 100%;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  color: #ecf2ff;
+  background-color: mediumaquamarine;
+  border: none;
+  border-radius: 3px;
+}
+
+.question-block {
+  width: 50%;
+  padding: 30px;
+  background-color: lightseagreen;
+}
+
+.question-block__title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #ecf2ff;
+}
+
+.question-block__text {
+  width: 200px;
+  color: lightcyan;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
